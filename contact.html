@@ -1,66 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>boostrap-portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Bootsrap-Protfolio</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href=".//assets/css/contact.css">
 </head>
 
 <body>
-    <div id="ct-fluid">
-        <div class="header mt-2 mb-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2 py-2 col-sm-12 name text-center ">
-                        <h2> Israel</h2>
+    <header>
+        <div class="container">
+            <nav class="navbar d-flex">
+                <nav class="heading">
+                    <h4>Israel Dembele</h4>
+                </nav>
+              
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active text-secondary" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contact">
+        <div class="contact-container">
+            <div class="title">
+                <h1>Feel Free To Contact Please!</h1>
+            </div>
+            <div class="contact-boxes">
+                <div class="contact-info">
+                    <p>
+                        <!-- Let's get to know each other. How can I be useful to your service? <br> I like my coffee black...what's yours? -->
+                        Have a question? <br> Let's get to know each other. How can I be useful to your service?
+                        <br> Please feel free to reach out to me. I would be delighted to answer all your questions or
+                        concerns.
+                    </p>
+                    <br>
+                </div>
+
+                <div class="contact-links">
+                    <p>
+                        you reach me out through a phone call, email or connect on LinkedIn.
+                    </p>
+    
+
+                    <p id="phone-number"><a href="tel:9179007305">(9179007305)</a></p>
+                    <p id="email"><a
+                            href="mailto:israelvainqueur@yahoo.com? subject=subject text">israelvainqueur@yahoo.com</a>
+                    </p>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/israel-Dembele-0a1827157" target="_blank" id="linkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+                        <a href="https://github.com/israel81boot" target="_blank" id="git"><i class="fa fa-github" aria-hidden="true"></i></a>
                     </div>
-                    <nav class="col-md-10 py-2 col-sm-12">
-                        <ul class="nav justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="./index.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-
-                        </ul>
-                    </nav>
                 </div>
             </div>
         </div>
-        <div class="container p-5 content p-content">
-            <div class="row about-me"> Contact Me</div>
-            <hr size="20">
-            <div class="row">
-                <div class="col-12">
-                    <div >Name</div>
-                    <input class="col-10" type="text" id="name" name="name">
-                </div>
-                <div class="col-12">
-                        <div>Email</div>
-                        <input class="col-10" type="email" id="email" name="email">
-                </div>
-                <div class="col-12 h-30">
-                        <div>Message</div>
-                        <input class="col-10 h-100" type="message" id="message" name="message">
-                </div>
-            </div>
-        </div>
-        <footer class="footer mt-auto py-3 mt-3 footer-content">
-            <div class="container">
-                copyright.
-            </div>
-        </footer>
-    </div>
+    </section>
 
+    <footer>
+
+        <div class="social-links">
+         <a href="https://https://www.linkedin.com/in/israel-Dembele-0a1827157/" target="_blank" id="linkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      
+         <a href="https://github.com/israel81boot" target="_blank" id="git"><i class="fa fa-github" aria-hidden="true"></i></a>
+      
+         <a href="mailto:israelvainqueur@yahoo.com? subject=subject text" target="_blank" id="email-link"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+         
+         <br>
+        </br>
+      
+         <p>&copy right Israel Dembele, 2020</p>
+      </div>
+      </footer>
+      
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+              integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous "></script>
+          <script src="assets/JavaScript/app.js "></script>
+                
 </body>
 
 </html>

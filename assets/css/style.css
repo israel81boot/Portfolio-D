@@ -1,4 +1,4 @@
-#eagle{
+#BC{
     width: 100px; 
     height: 100px;
 } 
@@ -9,8 +9,14 @@
 } 
 body{
     background-image: url("../img/bg.jpg");
-    padding: 0;
-} 
+    padding: 0; 
+
+}  
+ 
+#text{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: larger;
+}
 
 .header{
     background-color: white;

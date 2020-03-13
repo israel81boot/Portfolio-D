@@ -153,9 +153,8 @@ h5 {
     /* Chrome 10-25, Safari 5.1-6 */
    /* background: linear-gradient(to right, #414345, #232526); */
     background: white; 
-   margin-top: 3px; 
-   margin-bottom: 3px;
-   border-radius: 2em;
+   margin-right: 3em;
+   margin-left: 3em;
   } 
   
   div.title h1 {

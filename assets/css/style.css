@@ -8,7 +8,7 @@
     
 } 
 body{
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/maxresdefault.jpg");
     padding: 0; 
 
 }  
@@ -33,6 +33,8 @@ body{
     background-color: darkslategrey; 
     border-top: #4aaaa5 10px solid; 
     color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
 
 }  
 
@@ -59,4 +61,10 @@ body{
         height: 150px;
 
     }
+} 
+
+.text-secondary {
+    color: yellow !important;
+    font-size: 25px;
+    font-weight: bold;
 }

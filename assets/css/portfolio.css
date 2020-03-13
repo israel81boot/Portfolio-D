@@ -1,11 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-repeat: inherit;
-    background-image: url("https://developers.redhat.com/blog/wp-content/uploads/2017/10/background-213649_640-e1508348901179.jpg");
+    background-image: url("../img/maxresdefault.jpg");
 }
 
-header {
-    border-bottom: 3px solid #cccccc;
+header { 
+  padding: 10px;
+    border-top: 3px; 
+    border-bottom: 3px;
+    background-color: white;
 }
 
 /* .heading {
@@ -137,26 +140,29 @@ h5 {
     font-family: inherit;
     /* font-weight: 500; */
     line-height: 1.2;
-    color: inherit;
+    color: black;
     padding-left: 40%;
     padding-top: 6%;
 }
 
  #projects {
-    background: #232526;
+    background: white;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);
+   /* background: -webkit-linear-gradient(to right, #414345, #232526)*/
+    background: white;
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526);
-    
-   
+   /* background: linear-gradient(to right, #414345, #232526); */
+    background: white; 
+   margin-top: 3px; 
+   margin-bottom: 3px;
+   border-radius: 2em;
   } 
   
   div.title h1 {
     text-align: center;
     font-size: 4em;
     margin-top: 100px;
-    color: rgb(255, 255, 255);
+    color: black;
     font-family: "Shadows Into Light", cursive;
     padding-bottom: 5px;
     border-bottom: 1px solid rgb(65, 65, 65);
@@ -284,7 +290,7 @@ h5 {
   .clickly-game::before {
     content: "";
     display: block;
-    background-color: black;
+    background-color: white;
     opacity: 0.6;
     position: absolute;
     top: 0;

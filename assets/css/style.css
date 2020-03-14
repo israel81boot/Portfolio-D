@@ -16,13 +16,14 @@ body{
 }
 
 .header{
-    border-bottom: 3px solid #4aaaa5;
+    border-bottom: 3px solid #4aaaa5; 
+    color: yellow;  
+    padding: 3px; 
+    margin: 3px;
+    
 
 } 
-#ct-fluid{
-    padding: 0;
-    width: 100%;
-} 
+
 .content{
     background-color: white;
 } 
@@ -62,7 +63,8 @@ body{
 } 
 
 .text-secondary {
-    color: yellow !important;
-    font-size: 25px;
-    font-weight: bold;
-}
+
+    font-size: 25px; 
+    font-weight: bold; 
+
+} 

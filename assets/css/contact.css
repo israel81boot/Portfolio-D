@@ -21,7 +21,8 @@ header {
 
 
 .navbar {
-    padding: 0;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 

@@ -2,223 +2,242 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bootsrap-Protfolio</title>
-  <!-- <link rel="stylesheet" href="style.css"> -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootsrap-Protfolio</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
 
 </head>
 
 <body>
-
-  <header>
-    <div class="container">
-      <nav class="navbar d-flex">
-        <nav class="heading">
-          <h4>Israel Dembele</h4>
-        </nav>
-     
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active text-secondary" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-secondary" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section id="projects">
-    <div class="section-container">
-        <div class="title">
-            <h1> <span id="projectTitleName"></span> Projects</h1>
-        </div>
-        <div class="main-content">
-            <nav id="buttons-menu">
-                <button id="frontend" class="btn btn-secondary">FrontEnd</button>
-                <button id="react" class="btn btn-secondary">React</button>
-                <button id="backend" class="btn btn-secondary">Backend</button>
-                <button id="full-stack" class="btn btn-secondary">Full Stack</button>
-            </nav>
-            <!------------------------------backend Projects -------------------------------->
-            <div class="row backend-projects">
-                <div class="dotted col-md-6">
-                    <!-- Img project will go here. -->
-                    <div class="project-item word"></div>
-                </div>
-                <div class="col-md-6">
-                    <!-- Name of the Project -->
-                    <h4 id="project-name">EasySell</h4>
-
-                    <!-- Instructions - paragraph -->
-                    <p id="project-info"> 
-                        This application implements a simple command line based storefront using the npm inquirer package 
-                        and the MySQL database backend together with the npm mysql package. The application presents the customer interface.
-                    </p>
-
-                    <!-- Skills -->
-                    <div class="skills">
-                        <h2>Technologies</h2>
-                        
-                        <img id="programming-skills" src="assets/img/JS.png" alt="JavaScript">
-                        <img id="programming-skills" src="assets/img/bootstrap.png" alt="CSS3">
-                        <img id="programming-skills" src="assets/img/jQuery.png" alt="jQuery">
-                    </div>
-
-                    <!-- Link to GitHub and Project -->
-                    <div class="btn-links">
-                        <a id="demo" class="btn btn-success" href="https://github.com/israel81boot/easysell"
-                            target="_blank">Demo</a>
-                        <a id="github" class="btn btn-info" href="https://github.com/israel81boot/easysell"
-                            target="_blank">GitHub</a>
-                    </div>
-                </div>
-            </div> 
-
-            <!--------------------- Front end Projects ------------------------>
-            <div class="row frontend-projects">
-                <div class="dotted col-md-6">
-                    <!-- Name of the Project -->
-                    <h4 id="project-name">artist dicovery</h4>
-
-                    <!-- Instructions - paragraph -->
-                    <p id="project-info">
-                        You 
-                    </p>
-
-                    <!-- Skills -->
-                    <div class="skills">
-                        <h2>Technologies</h2>
-                        <img id="programming-skills" src="assets/img/html5.png" alt="HTML5">
-                        <img id="programming-skills" src="assets/img/css3.png" alt="CSS3">
-                        <img id="programming-skills" src="assets/img/JS.png" alt="JavaScript">
-                        <img id="programming-skills" src="assets/img/jQuery.png" alt="jQuery">
-                    </div>
-
-                    <!-- Link to GitHub and Project -->
-                    <div class="btn-links">
-                        <a id="demo" class="btn btn-success" href="https://github.com/Ericv0801/groupproj1"
-                            target="_blank">Demo</a>
-                        <a id="github" class="btn btn-info" href="https://github.com/Ericv0801/groupproj1"
-                            target="_blank">GitHub</a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <!-- Img project will go here. -->
-                    <div class="project-item giftastic"></div>
-                </div>
-            </div>
-            
-            <!--------------------- full stack ------------------------>
-            <div class="row fullStack-projects">
-                <div class="dotted col-md-6">
-                    <!-- Img project will go here. -->
-                    <div class="project-item "> Eat burger</div>
-                </div>
-                <div class="col-md-6">
-                    <!-- Name of the Project -->
-                    <h4 id="project-name"> </h4>
-
-                    <!-- Instructions - paragraph -->
-                    <p id="project-info">
-                        
-                        <br><br>
-                        This application demonstrates a simple full stack application with a front end implemented with HTML/CSS
-                         and elements from the Materialize framework and the backend implemented with Node.js and Express. 
-                         HTML templating is done with the help of javascript.
-
-                    </p>
-
-                    <!-- Skills -->
-                    <div class="skills">
-                        <h2>Technologies</h2>
-                        <img id="programming-skills" src="assets/img/html5.png" alt="HTML5">
-                        <img id="programming-skills" src="assets/img/css3.png" alt="CSS3">
-                        <img id="programming-skills" src="assets/img/JS.png" alt="JavaScript">
-                        <img id="programming-skills" src="assets/img/bootstrap.png"
-                            alt="Bootstrap">
-                        <img id="programming-skills" src="assets/img/jQuery.png" alt="jQuery">
-                        <img id="programming-skills" src="assets/img/nodeJS.png" alt="nodeJS">
-                        <img id="programming-skills" src="assets/img/express.png" alt="express.js">
-                        <img id="programming-skills" src="assets/img/mySQL2.jpg" alt="mySQL">
-                    </div>
-
-                    <!-- Link to GitHub and Project -->
-                    <div class="btn-links">
-                        <a id="github" class="btn btn-info" href="https://github.com/israel81boot/burger"
-                            target="_blank">GitHub</a>
-                    </div>
-                </div>
-            </div> 
-   
-               <!--------------------- React Full Stack Projects ------------------------>
-            
-            <div class="row react-projects">
-                <div class="dotted col-md-6">
-                    <!-- Img project will go here. -->
-                    <div class="project-item loanedOut"></div>
-                </div>
-                <div class="col-md-6">
-                    <!-- Name of the Project -->
-                    <h4 id="project-name">rent property</h4>
-
-                    <!-- Instructions - paragraph -->
-                    <p id="project-info">
-                        A full stack, MVC (Model-View-Controller) duel application that allows people to search or rent a property.
-                        You can view available houses or add. but edit or delete a house is allowed only to whom are register to admin. 
-                        
-            
-                    </p>
-
-                    <!-- Skills -->
-                    <div class="skills">
-                        <h2>Technologies</h2>
-                       
-                        <img id="programming-skills" src="assets/img/React.png" alt="JavaScript">
-                        <img id="programming-skills" src="assets/img/bootstrap.png" alt="Bootstrap"> 
-                        <img id="programming-skills" src="assets/img/" alt="Bootstrap">
-                        <img id="programming-skills" src="assets/images/skills-images/mySQL2.jpg" alt="mySQL">
-                    </div>
-
-                    <!-- Link to GitHub and Project -->
-                    <div class="btn-links">
-                        <a id="demo" class="btn btn-success" href="https://rent-a-house.herokuapp.com/"
-                            target="_blank">Demo</a>
-                        <a id="github" class="btn btn-info" href="https://github.com/israel81boot/property-app"
-                            target="_blank">GitHub</a>
-                    </div>
-                </div>
-            </div>
-
     
-            
+        <header>
+            <div class="container"> 
+                
+                <nav class="navbar d-flex">
+                    <nav class="heading" >
+                        <h4>Israel Dembele</h4>
+                    </nav>
+                 
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="contact.html">Contact</a>
+                        </li>
+                    </ul> 
+                
+                </nav>
+            </div>
+        </header>
 
-        </div>
-    </div>
-</section>
+        <section id="projects">
+            <div class="section-container">
+                <div class="title">
+                    <h1> <span id="projectTitleName"></span> Projects</h1>
+                </div>
+                <div class="main-content">
+                    <nav id="buttons-menu">
+                        <button id="frontend" class="btn btn-secondary">FrontEnd</button>
+                        <button id="react" class="btn btn-secondary">React</button>
+                        <button id="backend" class="btn btn-secondary">Backend</button>
+                        <button id="full-stack" class="btn btn-secondary">Full Stack</button>
+                    </nav>
+                    <!------------------------------backend Projects -------------------------------->
+                    <div class="row backend-projects">
+                        <div class="dotted col-md-6">
+                            <!-- Img project will go here. -->
+                            <div class="project-item word"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Name of the Project -->
+                            <h4 id="project-name">EasySell</h4>
+
+                            <!-- Instructions - paragraph -->
+                            <p id="project-info">
+                                This application implements a simple command line based storefront using the npm
+                                inquirer package
+                                and the MySQL database backend together with the npm mysql package. The application
+                                presents the customer interface.
+                            </p>
+
+                            <!-- Skills -->
+                            <div class="skills">
+                                <h2>Technologies</h2>
+
+                                <img id="programming-skills" src="assets/img/JS.png" alt="JavaScript">
+                                <img id="programming-skills" src="assets/img/bootstrap.png" alt="CSS3">
+                                <img id="programming-skills" src="assets/img/jQuery.png" alt="jQuery">
+                            </div>
+
+                            <!-- Link to GitHub and Project -->
+                            <div class="btn-links">
+                                <a id="demo" class="btn btn-success" href="https://github.com/israel81boot/easysell"
+                                    target="_blank">Demo</a>
+                                <a id="github" class="btn btn-info" href="https://github.com/israel81boot/easysell"
+                                    target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--------------------- Front end Projects ------------------------>
+                    <div class="row frontend-projects">
+                        <div class="dotted col-md-6">
+                            <!-- Name of the Project -->
 
 
-<footer>
+                            <div class="col-md-6">
+                                <h4 id="project-name">trivial game</h4>
 
-  
-   <p>&copy israel Dembele, 2020</p>
-</div>
-</footer>
+                                <!-- Instructions - paragraph -->
+                                <p id="project-info">
+                                    You'll create a trivia form with multiple choice or true/false options (your
+                                    choice).
+                                    The player will have a limited amount of time to finish the quiz. The game ends when
+                                    the time runs out.
+                                    The page will reveal the number of questions that players answer correctly and
+                                    incorrectly.
+                                    Don't let the player pick more than one answer per question.
+                                </p>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                                <!-- Skills -->
+                                <div class="skills">
+                                    <h2>Technologies</h2>
+                                    <img id="programming-skills" src="assets/img/html5.png" alt="HTML5">
+                                    <img id="programming-skills" src="assets/img/css3.png" alt="CSS3">
+                                    <img id="programming-skills" src="assets/img/JS.png" alt="JavaScript">
+                                    <img id="programming-skills" src="assets/img/jQuery.png" alt="jQuery">
+                                </div>
+
+                                <!-- Link to GitHub and Project -->
+                                <div class="btn-links">
+                                    <a id="demo" class="btn btn-success"
+                                        href="https:/github.com/israel81boot/TriviaGame" target="_blank">Demo</a>
+                                    <a id="github" class="btn btn-info"
+                                        href="https://github.com/israel81boot/TriviaGame" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Img project will go here. -->
+                            <div class="project-item game"></div>
+                        </div>
+
+                    </div>
+
+                    <!--------------------- full stack ------------------------>
+                    <div class="row fullStack-projects">
+                        <div class="dotted col-md-6">
+                            <!-- Img project will go here. -->
+                            <div class="project-item burger "> Eat burger</div>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Name of the Project -->
+                            <h4 id="project-name"> The Burger </h4>
+
+                            <!-- Instructions - paragraph -->
+                            <p id="project-info">
+
+                                This application demonstrates a simple full stack application with a front end
+                                implemented with HTML/CSS
+                                and elements from the Materialize framework and the backend implemented with Node.js and
+                                Express.
+                                HTML templating is done with the help of javascript.
+
+                            </p>
+
+                            <!-- Skills -->
+                            <div class="skills">
+                                <h2>Technologies</h2>
+                                <img id="programming-skills" src="assets/img/html5.png" alt="HTML5">
+                                <img id="programming-skills" src="assets/img/css3.png" alt="CSS3">
+                                <img id="programming-skills" src="assets/img/JS.png" alt="JavaScript">
+                                <img id="programming-skills" src="assets/img/bootstrap.png" alt="Bootstrap">
+                                <img id="programming-skills" src="assets/img/jQuery.png" alt="jQuery">
+                                <img id="programming-skills" src="assets/img/nodeJS.png" alt="nodeJS">
+                                <img id="programming-skills" src="assets/img/express.png" alt="express.js">
+                                <img id="programming-skills" src="assets/img/mySQL2.jpg" alt="mySQL">
+                            </div>
+
+                            <!-- Link to GitHub and Project -->
+                            <div class="btn-links">
+                                <a id="demo" class="btn btn-success" href="https://burgersis.herokuapp.com/"
+                                    target="_blank">Demo</a>
+                                <a id="github" class="btn btn-info" href="https://github.com/israel81boot/burger"
+                                    target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--------------------- React Full Stack Projects ------------------------>
+
+                    <div class="row react-projects">
+                        <div class="dotted col-md-6">
+                            <!-- Img project will go here. -->
+                            <div class="project-item loanedOut"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Name of the Project -->
+                            <h4 id="project-name">rent property</h4>
+
+                            <!-- Instructions - paragraph -->
+                            <p id="project-info">
+                                A full stack, MVC (Model-View-Controller) duel application that allows people to search
+                                or rent a property.
+                                You can view available houses or add. but edit or delete a house is allowed only to whom
+                                are register to admin.
+
+
+                            </p>
+
+                            <!-- Skills -->
+                            <div class="skills">
+                                <h2>Technologies</h2>
+
+                                <img id="programming-skills" src="assets/img/React.png" alt="JavaScript">
+                                <img id="programming-skills" src="assets/img/bootstrap.png" alt="Bootstrap">
+                                <img id="programming-skills" src="assets/img/" alt="Bootstrap">
+                                <img id="programming-skills" src="assets/images/skills-images/mySQL2.jpg" alt="mySQL">
+                            </div>
+
+                            <!-- Link to GitHub and Project -->
+                            <div class="btn-links">
+                                <a id="demo" class="btn btn-success" href="https://rent-a-house.herokuapp.com/"
+                                    target="_blank">Demo</a>
+                                <a id="github" class="btn btn-info" href="https://github.com/israel81boot/property-app"
+                                    target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+
+
+            <p>&copy israel Dembele, 2020</p>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous "></script>
     <script src="JavaScript/app.js "></script>
-
+    </div>
 </body>
 
 </html>

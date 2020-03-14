@@ -5,11 +5,13 @@ body {
 }
 
 header { 
-  padding: 10px;
+  padding: 3px;
     border-top: 3px; 
-    border-bottom: 3px;
-    background-color: white;
-}
+    border-bottom: 3px solid #cccccc; 
+
+  
+    margin-bottom: 2em;
+} 
 
 /* .heading {
     background-color: #4aaaa5;
@@ -48,7 +50,7 @@ h4 {
 .main-content {
     margin: 50px 0;
     padding: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
 section {
@@ -137,11 +139,11 @@ h5 {
 
 #projectTitleName{
     margin-bottom: .5rem;
-    font-family: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     /* font-weight: 500; */
     line-height: 1.2;
     color: black;
-    padding-left: 40%;
+    padding-left: 30%;
     padding-top: 6%;
 }
 
@@ -160,7 +162,9 @@ h5 {
   div.title h1 {
     text-align: center;
     font-size: 4em;
-    margin-top: 100px;
+    margin-top: 80px; 
+    margin-bottom: 80px; 
+    height:120px;
     color: black;
     font-family: "Shadows Into Light", cursive;
     padding-bottom: 5px;
@@ -213,7 +217,7 @@ h5 {
   }
   
   #project-info {
-    color: lightgray;
+    color: black;
     font-size: 1.1rem;
     font-family: "Comfortaa", cursive;
     line-height: 2rem;
@@ -310,17 +314,15 @@ h5 {
     opacity: 0.3;
   }
   
-  .giftastic {
-    background-image: url(../images/Project-images/Giftastic1.png);
-  }
+  
   
   .word {
-    background-image: url(../images/Project-images/WordWorld1.PNG);
+    background-image: url(../img/easysell.png); 
    
   }
   
-  .bamazon {
-    background-image: url(../images/Project-images/bamazon1.png);
+  .burger {
+    background-image: url(../img/burger.png);
   }
   
   /* .eat-da-burger {
@@ -328,9 +330,9 @@ h5 {
   } */
   
   .loanedOut {
-    background-image: url(../images/Project-images/LoanedOut1.png);
+    background-image: url(../img/rent-house.png);
   }
-  .clickly-game {
-    background-image: url(../images/Project-images/clickyGame1.png);
+  .game {
+    background-image: url(../img/triviagame.png);
   }
   

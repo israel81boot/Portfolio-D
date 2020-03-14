@@ -2,11 +2,8 @@
     width: 100px; 
     height: 100px;
 } 
-.name{
-    background-color: #4aaaa5;
-    color: white;
+
     
-} 
 body{
     background-image: url("../img/maxresdefault.jpg");
     padding: 0; 
@@ -19,7 +16,8 @@ body{
 }
 
 .header{
-    background-color: white;
+    border-bottom: 3px solid #4aaaa5;
+
 } 
 #ct-fluid{
     padding: 0;

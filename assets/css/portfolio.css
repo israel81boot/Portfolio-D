@@ -142,7 +142,7 @@ h5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     /* font-weight: 500; */
     line-height: 1.2;
-    color: black;
+    color: darkblue;
     padding-left: 30%;
     padding-top: 6%;
 }
@@ -158,6 +158,7 @@ h5 {
    margin-right: 4em;
    margin-left: 4em;
   } 
+
   
   div.title h1 {
     text-align: center;

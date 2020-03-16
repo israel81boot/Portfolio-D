@@ -17,7 +17,7 @@ body{
 
 .header{
     border-bottom: 3px solid #4aaaa5; 
-    color: yellow;  
+    color: yellow;
     padding: 3px; 
     margin: 3px;
     
@@ -62,9 +62,10 @@ body{
     }
 } 
 
-.text-secondary {
+.secondary {
 
     font-size: 25px; 
-    font-weight: bold; 
-
+    font-weight: bold;  
+    color: yellow;
+  
 } 

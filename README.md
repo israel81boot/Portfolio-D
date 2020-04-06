@@ -7,5 +7,13 @@ To the top right, you got tree pages, you can click on each word to get inside t
 ## image 
 
 about me 
-![](./assets/img/2020-04-06%20(4).png)
+![](./assets/img/2020-04-06%20(4).png) 
+
+
+Projects 
+![](./assets/img/2020-04-06%20(3).png)
+
+Contact me
+![](./assets/img/2020-04-06%20(2).png)
+
 

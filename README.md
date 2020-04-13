@@ -1,8 +1,8 @@
 # PORTFOLIO 
-This is my web page where you can get more information and know me better. The materiel used to build this page is HTML, CSS, bootstrap and Javascript. 
+With this simple web page, you have access to a general knowledge of my skills through some of my projects. Each project has a particulary with differente technogies used.  
 
 # how it work 
-To the top right, you got tree pages, you can click on each word to get inside the page. In the portfolio page you have 4 bottoms (where you can click) describing each project you can view. let see this, and get in touch!  
+To the top right, you got tree pages, you can click on each word to get inside the page. In the portfolio page you have 4 bottoms (where you can click) describing each project that you can view. let see this, and get in touch!  
 
 ## Technologies 
 - Html 
@@ -24,6 +24,9 @@ Projects
 ![](./assets/img/2020-04-06%20(3).png)
 
 Contact me
-![](./assets/img/2020-04-06%20(2).png)
+![](./assets/img/2020-04-06%20(2).png) 
+
+## Author 
+- Israel Dembele
 
 

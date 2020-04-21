@@ -1,20 +1,20 @@
 # PORTFOLIO 
-With this simple web page, you have access to a general knowledge of my skills through some of my projects. Each project has a particulary with differente technogies used.  
+With this simple web page, the reader has access to a general knowledge of the skills used on each project. Each project is different based on the technologies used.
 
-# how it work 
-To the top right, you got tree pages, you can click on each word to get inside the page. In the portfolio page you have 4 bottoms (where you can click) describing each project that you can view. let see this, and get in touch!  
+# HOW IT WORK 
+To the top right, you got tree pages, you can click on each word to get inside the page. In the portfolio page, you have 4 bottoms (where you can click) describing each project that you can view through the demo button. let see this, and get in touch!  
 
-## Technologies 
+## TECHNOLOGIES 
 - Html 
 - CSS 
 - Bootstrap 
 - Javascript 
 - Jquery 
 
-## Link 
+## LINK 
 https://israel81boot.github.io/Portfolio-D/
 
-## image 
+## IMAGES
 
 About me 
 ![](./assets/img/2020-04-06%20(4).png) 
@@ -26,7 +26,7 @@ Projects
 Contact me
 ![](./assets/img/2020-04-06%20(2).png) 
 
-## Author 
+## AUTHOR  
 - Israel Dembele
 
 

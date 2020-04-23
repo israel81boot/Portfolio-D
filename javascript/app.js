@@ -1,4 +1,4 @@
-// Portfolio Page
+//Portfolio Page
 
 // This function will hide the following projects.
 hideProjects();
@@ -23,7 +23,7 @@ $("#frontend").on("click", function() {
 $("#backend").on("click", function() {
     $("#projectTitleName").text("Backend");
 
-    hideProjects();
+     hideProjects();
     $(".backend-projects").show(); 
     
 });
@@ -32,7 +32,7 @@ $("#backend").on("click", function() {
 $("#full-stack").on("click", function() {
     $("#projectTitleName").text("Full Stack");
 
-    hideProjects();
+     hideProjects();
     $(".fullStack-projects").show(); 
     
 });
@@ -41,7 +41,7 @@ $("#full-stack").on("click", function() {
 $("#react").on("click", function() {
     $("#projectTitleName").text("React");
 
-    hideProjects();
+     hideProjects();
     $(".react-projects").show(); 
 
 });

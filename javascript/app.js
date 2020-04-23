@@ -15,7 +15,8 @@ $("#frontend").on("click", function() {
     $("#projectTitleName").text("Frontend");
 
     hideProjects();
-    $(".frontend-projects").show();
+    $(".frontend-projects").show(); 
+    
 });
 
 // Backend projects
@@ -23,7 +24,8 @@ $("#backend").on("click", function() {
     $("#projectTitleName").text("Backend");
 
     hideProjects();
-    $(".backend-projects").show();
+    $(".backend-projects").show(); 
+    
 });
 
 // Full Stack projects
@@ -31,7 +33,8 @@ $("#full-stack").on("click", function() {
     $("#projectTitleName").text("Full Stack");
 
     hideProjects();
-    $(".fullStack-projects").show();
+    $(".fullStack-projects").show(); 
+    
 });
 
 // All React projects
@@ -39,5 +42,6 @@ $("#react").on("click", function() {
     $("#projectTitleName").text("React");
 
     hideProjects();
-    $(".react-projects").show();
+    $(".react-projects").show(); 
+
 });

@@ -6,7 +6,9 @@ body {
 
 header {
     border-bottom: 3px solid #cccccc; 
-    border-top: 3px slateblue;
+    border-top: 3px slateblue; 
+    padding: 0px;
+    margin: 3px;
 }
 
 /* .heading {
@@ -60,11 +62,6 @@ p {
     margin-bottom: 0.7rem;
 }
 
-footer {
-    border-top: 8px solid #4aaaa5;
-    color:#fff;
-}
-
 .line-break {
     margin: 10px 0;
 }
@@ -83,18 +80,13 @@ h5 {
     background: #4aaaa5;
 } */
 
-footer {
-    /* background-color: transparent; */
-    color: black;
-    display: block;
-    padding: 7px;
-    position: sticky;
-    font-weight: bold;
-    font-style: normal;
-    text-align: center;
-    border-top: 3px solid #cccccc;
-   
-  }
+#foot{
+    position: absolute; 
+    bottom: 0px;
+    left: 0px; 
+    width: 100%; 
+    margin: 0px;
+}
   
   div.social-links {
     text-align: center;
@@ -145,19 +137,19 @@ footer {
     background: -webkit-linear-gradient(to right, #414345, #232526);
     /* Chrome 10-25, Safari 5.1-6 */
     background: white;
-    height:390px;
-    margin-top: 5%;
-    margin-bottom: 5%; 
-    margin-left: 5%;
-    margin-right: 5%;
+    height:350px;
+    margin-top: 2%;
+    margin-bottom: 2%; 
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
 .contact-container {
     margin: auto;
     overflow: auto;
-    padding: 0 20px;
+    padding: 0 5px;
     min-height: 100vh;
-    width: 90%;
+    width: 80%;
     height: auto;
     /* border-bottom: 1px solid rgb(73, 73, 73); */
 }
@@ -221,4 +213,14 @@ div.contact-links p {
 #resume a {
     color: mediumblue;
     text-decoration: none;
+}  
+
+.footer-content{
+    text-align: center;
+    background-color: darkslategrey; 
+    border-top: #4aaaa5 10px solid; 
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
 }

@@ -73,7 +73,7 @@ p {
 }  
 
 #foot{
-    position: absolute; 
+   
     bottom: 0px;
     left: 0px; 
     width: 100%; 
@@ -180,7 +180,7 @@ h5 {
   
   .main-content {
     border-bottom: 1px solid rgb(73, 73, 73);
-    padding: 30px 5px;
+    padding: 20px 5px;
     flex: 1 1 80%;
     min-height: 100vh auto;  
     

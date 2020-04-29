@@ -1,7 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     /* background-repeat: inherit; */
-    background-image: url("../img/maxresdefault.jpg");
+    background-image: url("../img/maxresdefault.jpg"); 
+    height: 100%;
 }
 
 header {
@@ -81,7 +82,7 @@ h5 {
 } */
 
 #foot{
-    position: absolute; 
+    position: absolute;
     bottom: 0px;
     left: 0px; 
     width: 100%; 

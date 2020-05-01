@@ -86,7 +86,8 @@ h5 {
     bottom: 0px;
     left: 0px; 
     width: 100%; 
-    margin: 0px;
+    margin: 0px; 
+
 }
   
   div.social-links {
@@ -146,7 +147,7 @@ h5 {
 }
 
 .contact-container {
-    margin: auto;
+    margin-bottom: 0px;
     overflow: auto;
     padding: 0 5px;
     min-height: 100vh;

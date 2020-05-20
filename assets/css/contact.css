@@ -145,13 +145,23 @@ h5 {
     margin-left: 6%;
     margin-right: 7%;  
    padding-left: 8em;
-}
+} 
+
+@media only screen and ( max-width:500px) {
+    div.contact-boxes{
+      display: none;
+    } 
+    .contact-link{
+        font-size: small;
+    }
+    
+} 
 
 .contact-container {
     margin-bottom: 0px;
     overflow: auto;
     padding: 0 5px;
-    min-height: 100vh;
+    min-height: 100%;
     width: 80%;
     height: auto;
     /* border-bottom: 1px solid rgb(73, 73, 73); */
@@ -228,4 +238,27 @@ div.contact-links p {
     margin-top: 5px;
     margin-bottom: 5px;
 
-}
+}   
+
+@media only screen and ( max-width:500px) {
+    div.title h1{
+        font-size: medium;
+      }
+    .text-secondary{
+        font-size: small;
+    }
+    .contact-boxes{
+      display: none;
+    } 
+    .contact-link{
+        font-size: small;
+    } 
+    .d-flex{
+        display: none; 
+    } 
+    .navbar{
+        font-size: small;
+    } 
+    
+} 
+

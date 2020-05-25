@@ -345,11 +345,14 @@ h5 {
   }  
 
   @media only screen and ( max-width:500px) {
-    div.title h1{
-      font-size: medium;
+    .text-secondary{
+      font-size: small;
     }
     #buttons-menu{
-      display: none;
+      font-size: small;
+    } 
+    .title{
+      font-size: small;
     }
     
 } 

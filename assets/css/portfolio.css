@@ -354,7 +354,24 @@ h5 {
     .title{
       font-size: small;
     }
-    
+    .game{
+      display: none;
+    } 
+    #project-info{
+      min-width: 50%;
+    } 
+    .loanedOut{
+      display: none;
+    }
+    .word{
+      display: none;
+    } 
+    .burger{
+      display: none;
+    }
+    .title{
+      display: none;
+    }
 } 
 
  

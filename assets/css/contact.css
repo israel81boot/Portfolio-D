@@ -192,7 +192,7 @@ div.contact-info p {
     font-family: "Comfortaa", cursive;
     padding: 10px;
     line-height: 2;
-    color: black;
+    color: mediumblue;
     font-weight: bolder;
 }
 
@@ -232,10 +232,22 @@ div.contact-links p {
 }   
 
 @media only screen and (max-width:700px){
-    .contact-links{
-        min-width: 100%;
+    div.contact-links{
+        min-width: 100px !important;
     } 
-    .title{
+    div.title h1{
+        font-size: medium;
+    }
+    .contact-info{
+        display: none !important;
+    } 
+    #contact{
+        display: flex;
+    } 
+    #phone-number{
+        font-size: medium;
+    }
+    #email{
         font-size: medium;
     }
 }
@@ -243,10 +255,10 @@ div.contact-links p {
 
 @media only screen and ( max-width:500px) {
     div.title h1{
-        font-size: medium;
+        font-size: small !important;
       }
     .text-secondary{
-        font-size: small;
+        font-size: small !important;
     } 
     .contact-container{
         min-width: 50%;
@@ -254,19 +266,28 @@ div.contact-links p {
     #contact{
       display:flex;
     } 
-    .contact-links{
+    div.contact-links{
     
-        width: 50% !important;
+        width: 50px !important;
     } 
+    .contact-info{
+        display: none !important;
+    }
      
     .navbar{
         font-size: small;
     } 
     .contact-info{
-        width: 50%;
+        display: none;
     }
     .contact-boxes{
         width: 50%;
+    } 
+    #phone-number{
+        font-size: small;
+    }
+    #email{
+        font-size: small;
     }
     
 } 

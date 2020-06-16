@@ -253,42 +253,10 @@ div.contact-links p {
 }
 
 
-@media only screen and ( max-width:500px) {
-    div.title h1{
-        font-size: small !important;
-      }
-    .text-secondary{
-        font-size: small !important;
-    } 
-    .contact-container{
-        min-width: 50%;
-    }
-    #contact{
-      display:flex;
-    } 
-    div.contact-links{
-    
-        width: 50px !important;
-    } 
-    .contact-info{
-        display: none !important;
-    }
-     
-    .navbar{
-        font-size: small;
-    } 
-    .contact-info{
-        display: none;
-    }
-    .contact-boxes{
-        width: 50%;
-    } 
-    #phone-number{
-        font-size: small;
-    }
-    #email{
-        font-size: small;
-    }
+@media only screen and ( max-width:600px) {
+   body{
+       max-width: 600px;
+   }
     
 } 
 

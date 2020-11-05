@@ -333,7 +333,7 @@ h5 {
   
   .word {
     background-image: url(../img/easysell.png); 
-   
+  
   }
   
   .burger {
@@ -491,7 +491,7 @@ h5 {
     font-size: large;
   } 
   #proj1{
-    display:inline-block;
+    display:flex;
   }
   
 }  

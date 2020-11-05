@@ -2,6 +2,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-repeat: inherit;
     background-image: url("../img/maxresdefault.jpg");
+    /* min-width: 90vh; */
+    /* width: 100%; */ 
+    margin: 0; 
+    padding: 0;
+ } 
+ .wrapper{
+   width: 100%;
  }
 
 .header { 
@@ -344,34 +351,147 @@ h5 {
     background-image: url(../img/triviagame.png);
   }  
 
-  @media only screen and ( max-width:500px) {
-    .text-secondary{
-      font-size: small;
-    }
-    #buttons-menu{
-      font-size: small;
-    } 
-    .title{
-      font-size: small;
-    }
-    .game{
-      display: none;
-    } 
-    #project-info{
-      min-width: 50%;
-    } 
-    .loanedOut{
-      display: none;
-    }
-    .word{
-      display: none;
-    } 
-    .burger{
-      display: none;
-    }
-    .title{
-      display: none;
-    }
-} 
+  @media only screen and ( max-width:600px) { 
+    .wrapper{
+        width: 100%; 
+    }  
+    
+  .d-flex{
+      display: none; 
+  } 
 
- 
+    div.title h1{
+      font-size: small;
+    } 
+    .main-content{
+      display: block;
+    } 
+    .nav{
+      font-size: small;
+    }
+    .container{
+      display: inline;
+    } 
+    .text-secondary{
+      font-size: small; 
+      display: inline;
+  } 
+  .main-content   {
+    width: 350px; 
+    padding: 10px;
+    
+  } 
+  .game{
+    display: none;
+  }
+  .word {
+    display: none; 
+   
+  }
+  
+  .burger {
+    display: none;
+  }
+  
+  .loanedOut {
+    display: none;
+  } 
+  #projects{
+    margin-right: 15px;
+    margin-left: 15px;
+  } 
+  #project-name{
+    text-align: center; 
+    font-size: medium;
+  } 
+  .bouton{
+    padding-left: 50%; 
+    padding-right: 50%;
+  }
+}   
+
+@media only screen and ( max-width:900px) { 
+  .wrapper{
+      width: 100%; 
+    
+  } 
+  div.title h1{
+    font-size: large;
+  } 
+   .main-content{
+    display: block;
+  }  
+  .nav{
+    font-size: medium;
+  }
+  .container{
+    display: inline;
+  } 
+  .game{
+    display: none;
+  }
+  .word {
+    display: none; 
+   
+  }
+  
+  .burger {
+    display: none;
+  }
+  
+  .loanedOut {
+    display: none;
+  }
+  #project-name{
+    font-size: large; 
+    text-align: center;
+  }
+  div.title h1{
+    margin-bottom: 0;
+    height: 0;
+  } 
+  /* .dotted{
+    display: none;
+  } 
+  .col-md-6{
+    max-width: 100%;
+  } 
+  .skills{
+    text-align: center;
+  } 
+  #proj1{
+    display: block; 
+    padding-left: 10px;
+    padding-right: 10px;
+  }  */
+  .bouton{
+    padding-left: 50%; 
+    padding-right: 50%;
+  }
+}   
+
+@media only screen and ( min-width:1000px) { 
+   
+  .wrapper{
+      width: 100%;  
+      height: auto; 
+      
+  }  
+
+  div.title h1{
+    font-size: 4em; 
+    margin-top: 0; 
+    margin-bottom: 0;
+    height: auto;
+  } 
+  /* .main-content{
+    display: block;
+  }  */
+  .nav{
+    font-size: large;
+  } 
+  #proj1{
+    display:inline-block;
+  }
+  
+}  

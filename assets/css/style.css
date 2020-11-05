@@ -1,14 +1,24 @@
 #BC{
-    width: 100px; 
-    height: 100px;
+     width: 100px; 
+     height: 100px; 
 } 
 
     
 body{
     background-image: url("../img/maxresdefault.jpg");
-    padding: 0; 
+    padding: 0;  
+    margin: 0;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+
+    /* min-width: 90vh;
+    max-width: 100%; */
 
 }  
+.wrapper{
+    width: 100%;
+} 
  
 #text{
     font-family: Georgia, 'Times New Roman', Times, serif; 
@@ -72,11 +82,17 @@ body{
     left: 0px; 
     width: 100%; 
     margin: 0px;
-} 
-@media only screen and ( max-width:500px) {
-    #eagle{
+}  
+
+@media only screen and ( max-width:500px) { 
+    .wrapper{
         width: 100%; 
-        display: none;
+        margin: auto;
+    }
+    #eagle{
+       max-width: 100%; 
+        height: auto;
+    
     }  
     #text{
         font-size: small;
@@ -88,12 +104,56 @@ body{
         font-size: small;
     } 
     #BC{
-    min-width: 50%;
+    max-width: 100%;
     } 
     .secondary{
         font-size: small;
     }
     #me{
-        display: none;
+        font-size: small;
     }
-} 
+}  
+
+@media only screen and ( max-width:700px) {  
+    body{
+        background-image: url("../img/maxresdefault.jpg");
+        /* padding: 0;   */
+        /* margin: 0;   */
+        background-repeat: no-repeat; 
+        background-attachment: fixed; 
+        background-size: cover;
+        height: 500px;
+        /* min-width: 90vh;
+        max-width: 100%; */
+    
+    }  
+
+
+    .wrapper{
+        width: 100%;
+        margin: auto; 
+        height: 600px;
+    }
+    
+    #eagle{
+       max-width: 100%; 
+        height: auto;
+    }  
+    #text{
+        font-size: large;
+    }
+    .d-flex{
+        display: none; 
+    } 
+    .navbar{
+        font-size: small;
+    } 
+    #BC{
+    max-width: 100%;
+    } 
+    .secondary{
+        font-size: medium;
+    }
+   
+}  
+

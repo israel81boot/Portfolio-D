@@ -2,7 +2,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     /* background-repeat: inherit; */
     background-image: url("../img/maxresdefault.jpg"); 
-    height: 100%;
+    /* min-width: 90vh; */
+    /* width: 100%; */
+    margin: 0; 
+    padding: 0;
+} 
+.wrapper{
+    width: 100%;
 }
 
 header {
@@ -231,32 +237,86 @@ div.contact-links p {
 
 }   
 
-@media only screen and (max-width:700px){
-    div.contact-links{
-        min-width: 100px !important;
-    } 
-    div.title h1{
-        font-size: medium;
-    }
-    .contact-info{
+@media only screen and (max-width:500px){
+    /* div.contact-info p{
         display: none !important;
+    }  */ 
+    .wrapper{
+        width: 100%; 
+        margin: auto;
     } 
+    .d-flex{
+        display: none; 
+    }
+    .text-secondary{
+        font-size: small; 
+        display: inline;
+    }
+    div.title h1{
+        font-size: small;
+    }
+    div.contact-info {
+        display: none !important;
+    }  
+    div.contact-link{
+        margin: 0;
+        text-align: center;
+    }
+    .navbar{
+        font-size: small;
+    }
     #contact{
-        display: flex;
+        padding: 0;
+        margin: 0;
     } 
     #phone-number{
         font-size: medium;
     }
     #email{
         font-size: medium;
+    } 
+    .contact-container{
+        width: auto;
     }
 }
 
-
-@media only screen and ( max-width:600px) {
-   body{
-       max-width: 600px;
-   }
-    
+@media only screen and ( max-width:800px) {
+    .wrapper{
+        width: 100%; 
+        margin: auto;
+    } 
+    .d-flex{
+        display: none; 
+    }
+   div.contact-info {
+    display: none !important;
+  }  
+div.title h1{
+    font-size: medium;
+}
+#contact{
+    margin: auto;
+    padding: 0;
+}    
+ 
+#phone-number{
+    font-size: medium;
+}
+#email{
+    font-size: medium;
 } 
+.navbar{
+    font-size: small;
+} 
+.text-secondary{
+    font-size: small; 
+    display: inline;
+}
+  div.contact-info{
+      display: none;
+  }   
+  .contact-container{
+      width: auto;
+  }
+}
 
